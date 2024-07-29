@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cleo Apartments</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="Cleo Apartments" />
+
+    <link rel="stylesheet" href="./stylesheets/main.scss" />
+    <link rel="stylesheet" href="./stylesheets/roommate.scss" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Your HTML goes here -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light shadow fixed-top">
+      <div class="container-fluid d-flex justify-content-between">
+        <a class="navbar-brand" href="/index.html">CLEO</a>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="/floorplans.html">Floorplans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="/index.html/#amenitiesID">Amenities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="/index.html/#galleryID">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="/roommate.html">Roommate Matching</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link" href="/floorplans.html"><button class="applyNow">Apply Now</button></a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-image">
+      <div class="container">
+        <h1 class="text-white text-uppercase">Find Your Perfect Roommate</h1>
+      </div>
+    </div>
+
+    <div class="roommateForm">
+      <div class="container">
+        <h2 class="text-center pb-2">Match with Your Ideal Roommate</h2>
+        <form>
+          <div class="row mb-2">
+            <div class="col-12 col-md-6">
+              <label for="fullName" class="form-label">Full Name</label>
+              <input id="fullName" class="form-control" type="text" placeholder="Full Name" />
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="academicYear" class="form-label">Academic Year</label>
+              <input id="academicYear" class="form-control" type="text" placeholder="Academic Year" />
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-12 col-md-6">
+              <label for="emailAddress" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="emailAddress" placeholder="Email Address" />
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="phoneNumber" class="form-label">Phone Number</label>
+              <input id="phoneNumber" class="form-control" type="text" placeholder="Phone Number" />
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn mt-0">Reserve Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer py-3">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <h1 class="text-uppercase"><a href="/index.html">Cleo</a></h1>
+            <address>
+              1-891-021-9111<br />
+              Cleo Headquarters<br />
+              Alberta Street, Canada
+            </address>
+          </div>
+          <div class="col-md-4">
+            <h4>Social Media Links</h4>
+            <div class="list-unstyled">
+              <a href="#">Facebook</a><br />
+              <a href="#">Linked In</a><br />
+              <a href="#">Twitter</a><br />
+              <a href="#">YouTube</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h4>Additional Links</h4>
+            <div class="list-unstyled">
+              <a href="/index.html/#floorplansID">Floorplans</a><br />
+              <a href="/index.html/#amenitiesID">Amenities</a><br />
+              <a href="/index.html/#galleryID">Gallery</a><br />
+              <a href="/roommate.html">Roommate Matching</a>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center mt-3">
+          <p class="mb-0 copyright">&copy; 2024 by Cleo, Inc. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./javascripts/main.js"></script>
+  </body>
+</html>

@@ -1,3 +1,263 @@
 /* Your styles go here */
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
+$dark-teal: #264653;
+$teal: #2a9d8f;
+$yellow: #e9c46a;
+$orange: #f4a261;
+$red-orange: #e76f51;
+
+body {
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23264653' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  .navbar-toggler {
+    border-color: #264653;
+  }
+  .navbar-brand {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: $dark-teal;
+    margin-right: 0rem;
+  }
+  .nav-link {
+    font-family: "Raleway", serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: $teal;
+    &:hover {
+      color: #1e6a61;
+    }
+  }
+  .nav-item {
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3),
+    &:nth-child(4) {
+      margin-left: 3rem;
+    }
+  }
+
+  .applyNow {
+    font-weight: 650;
+    border: 2px solid $yellow;
+    background-color: $yellow;
+    color: $dark-teal;
+    border-radius: 30px;
+    padding: 0.5rem;
+    width: 10rem;
+
+    &:hover {
+      color: #101e24;
+      border: 2px solid #9d8547;
+      background-color: #9d8547;
+    }
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  .jumbotron-image {
+    background: url("https://images.unsplash.com/photo-1619810230359-b2c2f61c49cd?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      no-repeat center center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-blend-mode: multiply;
+
+    .container {
+      min-height: 800px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h1 {
+        padding-bottom: 1.25rem;
+        border-bottom: 1px solid white;
+        text-align: center;
+        font-size: 45px;
+      }
+
+      .exploreButton {
+        font-weight: 650;
+        border: 2px solid $yellow;
+        background-color: $yellow;
+        color: $dark-teal;
+        border-radius: 30px;
+        padding: 0.5rem;
+        width: 17.5rem;
+
+        &:hover {
+          color: #101e24;
+          border: 2px solid #9d8547;
+          background-color: #9d8547;
+        }
+      }
+    }
+  }
+
+  .floorplans {
+    padding: 3em;
+    background-color: $dark-teal;
+    h1 {
+      color: white;
+    }
+    .card {
+      border: none;
+      border-radius: 15px;
+      img {
+        border-radius: 15px;
+      }
+      .card-title {
+        font-family: "Playfair Display", serif;
+        font-weight: 750;
+        font-size: 30px;
+        color: $teal;
+      }
+      .bedbath {
+        font-family: "Raleway", serif;
+        font-weight: 600;
+        font-size: 25px;
+        color: #1e6a61;
+      }
+      .rent {
+        font-family: "Raleway", serif;
+        font-weight: 650;
+        font-size: 35px;
+        color: $orange;
+      }
+      .perMonth {
+        font-family: "Raleway", serif;
+        font-size: 20px;
+        font-weight: 500;
+      }
+    }
+
+    .center-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .takeTour {
+        font-weight: 650;
+        border: 2px solid $red-orange;
+        background-color: $red-orange;
+        color: white;
+        border-radius: 30px;
+        padding: 0.5rem;
+        width: 15rem;
+        margin-top: 1rem;
+
+        &:hover {
+          border: 2px solid #934633;
+          background-color: #934633;
+        }
+      }
+    }
+  }
+
+  .amenities {
+    background-color: $teal;
+    padding: 3rem;
+    .container {
+      background-color: $dark-teal;
+      border-radius: 15px;
+      padding: 2rem;
+      h1 {
+        color: white;
+      }
+      i {
+        color: $orange;
+        font-size: 50px;
+      }
+      p {
+        font-family: "Raleway", serif;
+        font-weight: 500;
+        font-size: 25px;
+        color: $yellow;
+      }
+    }
+  }
+
+  .gallery {
+    padding: 2rem;
+    .container {
+      h1 {
+        text-align: center;
+        color: $red-orange;
+      }
+      .carousel-item img {
+        border-radius: 15px;
+      }
+    }
+  }
+
+  footer {
+    background-color: $dark-teal;
+    h1 {
+      a {
+        color: white;
+        font-family: "Playfair Display", serif;
+        &:hover {
+          color: gray;
+        }
+      }
+    }
+    p {
+      font-family: "Raleway", serif;
+    }
+    h4 {
+      color: white;
+      font-family: "Playfair Display", serif;
+      font-size: 27.5px;
+      font-weight: 600;
+    }
+
+    .list-unstyled {
+      padding-left: 0;
+    }
+
+    address {
+      color: $yellow;
+      font-family: "Raleway", serif;
+    }
+
+    a {
+      text-decoration: none;
+      font-family: "Raleway", serif;
+      color: $yellow;
+
+      &:hover {
+        color: #9d8547;
+      }
+    }
+
+    p {
+      margin-bottom: 0;
+
+      &.copyright {
+        color: white;
+        border-top: 1px solid $teal;
+        padding-top: 1rem;
+        font-family: "Raleway", serif;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  footer .container {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar .applyNow {
+    display: none;
+  }
+}
