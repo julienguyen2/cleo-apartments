@@ -5,10 +5,10 @@ This project involved designing a user-friendly website for Cleo, a new student 
 Check out the live demo of [Cleo Apartments](https://tranquil-pika-dcebf1.netlify.app/).
 
 ## Tools & Technologies
-- Frontend: HTML, SCSS, Bootstrap
-- Backend: Node.js
-- Version Control: Git, GitHub
-- Programming Environment: Visual Studio Code
+- **Frontend**: HTML, SCSS, Bootstrap
+- **Backend**: Node.js
+- **Version Control**: Git, GitHub
+- **Programming Environment**: Visual Studio Code
 
 ## Achievements & Areas for Improvement
 I feel proud of my ability to stick to a color palette, my font choices, and drawing inspiration from the design contest’s winner and the content document. These elements contributed to a visually cohesive website. Given more time, I would have added an interactive map to highlight nearby locations around Cleo, enhancing the site’s functionality. This feature would have enhanced the user experience by providing a visual representation of the property's surroundings.
