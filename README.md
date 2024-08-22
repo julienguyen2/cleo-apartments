@@ -14,7 +14,7 @@ Check out the live demo of [Cleo Apartments](https://tranquil-pika-dcebf1.netlif
 I feel proud of my ability to stick to a color palette, my font choices, and drawing inspiration from the design contest’s winner and the content document. These elements contributed to a visually cohesive website. Given more time, I would have added an interactive map to highlight nearby locations around Cleo, enhancing the site’s functionality. This feature would have enhanced the user experience by providing a visual representation of the property's surroundings.
 
 ## Feedback and Changes
-Based on feedback from three critiques, I made the following changes to the project:
+**Based on feedback from three critiques, I made the following changes to the project:**
 - Improved responsiveness for better performance on all devices.
 - Enhanced color contrast for improved accessibility.
 - Simplified navigation to improve user experience.
