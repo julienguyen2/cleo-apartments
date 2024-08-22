@@ -1,5 +1,11 @@
 # Cleo Apartments
 
+## Tools & Technologies
+- Frontend: HTML, SCSS, Bootstrap
+- Backend: Node.js
+- Version Control: Git, GitHub
+- Programming Environment: Visual Studio Code
+  
 ## Overview
 This project involved designing a user-friendly website for Cleo, a new student rental building. The site features 3 pages, including home, floor plans, and roommate matching.
 
