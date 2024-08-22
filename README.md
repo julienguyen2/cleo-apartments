@@ -1,4 +1,4 @@
-# Final Report: Cleo Student Rental Building Website
+# Cleo Student Rental Building Website
 
 ## Overview
 This project involved designing a user-friendly website for Cleo, a new student rental building. The site features 3 pages, including home, floor plans, and roommate matching.
